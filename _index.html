@@ -1,0 +1,153 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+  <link rel="stylesheet" type="text/css" href="css/DataTables-1.10.0/jquery.dataTables.css">
+  <style type="text/css" class="init">
+  </style>
+  <script type="text/javascript" language="javascript" src="js/DataTables-1.10.0/jquery.js"></script>
+  <script type="text/javascript" language="javascript" src="js/DataTables-1.10.0/jquery.dataTables.js"></script>
+  <script type="text/javascript" language="javascript" class="init">
+$(document).ready(function() {
+  $('#example').dataTable();
+  $( "#example_length" ).remove();
+} );
+  </script>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <script src="js/vendor/modernizr.js"></script>
+</head>
+
+
+
+<nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <li class="active"><a href="#">boton activo en la derecha</a></li>
+          <li class="has-dropdown">
+            <a href="#">dame click</a>
+            <ul class="dropdown">
+              <li><a href="#">primer link del dropdown</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="left">
+          <li><a href="#">el boton de la izquierda</a></li>
+        </ul>
+      </section>
+    </nav>
+    
+<br><br><br>
+
+
+<body class="dt-example">
+      <table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+          <tr>
+            <th>Nombre del proyecto</th>
+            <th>Producción</th>
+            <th>Desarrollo</th>
+            <th>SVN</th>
+            <?php
+            echo '<th>Credenciales</th>';
+            ?>
+            
+          </tr>
+        </thead>
+
+        <tfoot>
+          <tr>
+            <th>Nombre del proyecto</th>
+            <th>Producción</th>
+            <th>Desarrollo</th>
+            <th>SVN</th>
+            <?php
+            echo '<th>Credenciales</th>';
+            ?>
+          </tr>
+        </tfoot>
+
+        <tbody>
+          <tr>
+            <td>Diplomado Enlace</td>
+            <td>
+              <a href="http://132.248.238.11/" target="_blank" class="botonConfiguracion">Direccion</a> |
+              <a href="http://132.248.238.11/" target="_blank" class="">Configuracion</a>
+            </td>
+            <td>
+              <a href="http://132.248.238.11/" target="_blank" class="botonConfiguracion">Direccion</a> |
+              <a href="http://132.248.238.11/" target="_blank" class="">Configuracion</a>
+            </td>
+            <td>
+              <a href="http://132.248.238.11/" target="_blank" class="enlace" > ver </a>
+              </td>
+            <td>adminges / rj45g3s</td>
+          </tr>
+
+          <tr>
+            <td>Diplomado Enlace</td>
+            <td>
+              <a href="http://132.248.238.11/" target="_blank" class="botonConfiguracion">Direccion</a> |
+              <a href="http://132.248.238.11/" target="_blank" class="">Configuracion</a>
+            </td>
+            <td>
+              <a href="http://132.248.238.11/" target="_blank" class="botonConfiguracion">Direccion</a> |
+              <a href="http://132.248.238.11/" target="_blank" class="">Configuracion</a>
+            </td>
+            <td>
+              <a href="http://132.248.238.11/" target="_blank" class="enlace" > ver </a>
+              </td>
+            <td>adminges / rj45g3s</td>
+          </tr>
+
+          <tr>
+            <td>Diplomado Enlace</td>
+            <td>
+              <a href="http://132.248.238.11/" target="_blank" class="botonConfiguracion">Direccion</a> |
+              <a href="http://132.248.238.11/" target="_blank" class="">Configuracion</a>
+            </td>
+            <td>
+              <a href="http://132.248.238.11/" target="_blank" class="botonConfiguracion">Direccion</a> |
+              <a href="http://132.248.238.11/" target="_blank" class="">Configuracion</a>
+            </td>
+            <td>
+              <a href="http://132.248.238.11/" target="_blank" class="enlace" > ver </a>
+              </td>
+            <td>adminges / rj45g3s</td>
+          </tr>
+
+          <tr>
+            <td>Diplomado Enlace</td>
+            <td>
+              <a href="http://132.248.238.11/" target="_blank" class="botonConfiguracion">Direccion</a> |
+              <a href="http://132.248.238.11/" target="_blank" class="">Configuracion</a>
+            </td>
+            <td>
+              <a href="http://132.248.238.11/" target="_blank" class="botonConfiguracion">Direccion</a> |
+              <a href="http://132.248.238.11/" target="_blank" class="">Configuracion</a>
+            </td>
+            <td>
+              <a href="http://132.248.238.11/" target="_blank" class="enlace" > ver </a>
+              </td>
+            <td>adminges / rj45g3s</td>
+          </tr>
+
+
+        </tbody>
+      </table>
+
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+</body>
+</html>
